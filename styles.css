@@ -10,3 +10,12 @@
 .hero-home h1{max-width:720px}.home-intro{padding-bottom:76px}.featured-shirts{padding:76px 0;background:#e8eef9}.featured-shirts .shirt-grid{grid-template-columns:repeat(3,1fr)}.featured-action{display:flex;justify-content:center;margin-top:34px}.featured-action .btn{min-width:210px}.section-divider{border-top:1px solid var(--line)}
 @media(max-width:720px){.featured-shirts{padding:62px 0}.featured-shirts .shirt-grid{grid-template-columns:1fr}.featured-shirts .shirt-card:nth-child(n+3){display:none}.featured-action{margin-top:26px}}
 
+/* Valódi termék-mockupok és több színű ötlettár */
+.product-grid .shirt-art{height:auto;aspect-ratio:1/1;background:#e5e9f0;overflow:hidden}
+.product-grid .shirt-art img{width:100%;height:100%;display:block;object-fit:cover}
+.print-badge{position:absolute;left:14px;bottom:14px;background:rgba(8,11,18,.88);color:#fff;border:1px solid rgba(255,255,255,.22);border-radius:99px;padding:8px 11px;font-size:11px;font-weight:800;letter-spacing:.02em;backdrop-filter:blur(8px)}
+.one-color-note{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:28px;padding:15px 18px;width:fit-content;border-radius:14px;background:linear-gradient(120deg,rgba(20,94,232,.28),rgba(198,72,194,.18));border:1px solid rgba(255,255,255,.18)}
+.one-color-note strong{color:#fff}.one-color-note span{color:rgba(255,255,255,.7);font-size:14px}
+.product-grid .shirt-card:nth-child(4n+1) .tag{color:#145ee8}.product-grid .shirt-card:nth-child(4n+2) .tag{color:#a62a83}.product-grid .shirt-card:nth-child(4n+3) .tag{color:#d05816}.product-grid .shirt-card:nth-child(4n) .tag{color:#16815a}
+@media(max-width:720px){.one-color-note{align-items:flex-start;flex-direction:column}.product-grid .shirt-art{height:auto}.featured-shirts .product-grid .shirt-card:nth-child(n+3){display:block}}
+
